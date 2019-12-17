@@ -74,6 +74,47 @@
             font-weight: 900;
         }
 
+        .linkedt {
+            text-decoration: none !important;
+            color: red;
+        }
+
+        .linkedw {
+            text-decoration: none !important;
+            color: green;
+        }
+
+        .blinking {
+            animation: blinkingText 0.8s infinite;
+        }
+
+        @keyframes blinkingText {
+            0% {
+                color: #fff;
+            }
+
+/*
+            25% {
+                color: green;
+            }
+*/
+
+            50% {
+                color: blue;
+            }
+
+/*
+            75% {
+                color: yellow;
+            }
+*/
+
+            100% {
+                color: yellow;
+            }
+        }
+
+
         @media (pointer: coarse) and (hover: none) {
             header {
                 background: url('/img/mob.jpeg') white no-repeat center center scroll;
@@ -103,7 +144,9 @@
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 text-white">
                     <h1 class="video-text">Merry Christmas</h1>
-                    <p class="mb-0">JMJ Bakehouse, Palarivattom, Kochi</p>
+                    <p class="mb-0">JMJ Bakehouse, Palarivattom, Kochi</p><br>
+                    <h2 class="video-text">
+                        <a href="tel:+918281063360" class="linkedt blinking">Call</a>/<a href="https://api.whatsapp.com/send?phone=918281063360&amp;text=Hello.." class="linkedw blinking" target="_blank">WhatsApp</a> 828-106-3360</h2>
                 </div>
             </div>
         </div>

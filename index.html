@@ -1,1 +1,160 @@
-coming soon...
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>JMJ Bakehouse</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicons -->
+    <link href="/img/favicon-16x16.png" rel="icon">
+    <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Bootstrap CSS File -->
+    <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Raleway:300,500,900&display=swap');
+        /*
+  Author: webAdder.com
+*/
+
+        /*======================================
+//--//-->   STYLES GENERALES
+======================================*/
+        .required input:after {
+            content: "*";
+            color: red
+        }
+
+        header {
+            position: relative;
+            background-color: black;
+            height: 97vh;
+            min-height: 25rem;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        header video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: 0;
+            -ms-transform: translateX(-50%) translateY(-50%);
+            -moz-transform: translateX(-50%) translateY(-50%);
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+        }
+
+        header .container {
+            position: relative;
+            z-index: 2;
+        }
+
+        header .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 100%;
+            background-color: black;
+            opacity: 0.5;
+            z-index: 1;
+        }
+
+        .video-text {
+            color: #fff;
+            font-weight: 900;
+        }
+
+        .linkedt {
+            text-decoration: none !important;
+            color: red;
+        }
+
+        .linkedw {
+            text-decoration: none !important;
+            color: green;
+        }
+
+        .blinking {
+            animation: blinkingText 0.8s infinite;
+        }
+
+        @keyframes blinkingText {
+            0% {
+                color: #fff;
+            }
+
+/*
+            25% {
+                color: green;
+            }
+*/
+
+            50% {
+                color: blue;
+            }
+
+/*
+            75% {
+                color: yellow;
+            }
+*/
+
+            100% {
+                color: yellow;
+            }
+        }
+
+
+        @media (pointer: coarse) and (hover: none) {
+            header {
+                background: url('/img/santa.jpg') white no-repeat center center scroll;
+            }
+
+            header video {
+                display: none;
+            }
+        }
+
+    </style>
+    <!-- =======================================================
+    Theme Name: JMJ Bakehouse
+    Author: webAdder.com
+  ======================================================= -->
+</head>
+
+<body id="page-top">
+
+    <!--/ Intro Skew Star /-->
+    <header id="home">
+        <div class="overlay"></div>
+        <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="/img/santa.mp4" type="video/mp4">
+        </video>
+        <div class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1 class="video-text">Merry Christmas</h1>
+                    <p class="mb-0">JMJ Bakehouse, Palarivattom, Kochi</p><br>
+                    <h2 class="video-text">
+                        <a href="tel:+918281063360" class="linkedt blinking">Call</a>/<a href="https://api.whatsapp.com/send?phone=918281063360&amp;text=Hello.." class="linkedw blinking" target="_blank">WhatsApp</a> 828-106-3360</h2>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--/ Intro Skew End /-->
+
+    <div id="preloader"></div>
+
+</body>
+
+</html>
