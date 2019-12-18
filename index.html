@@ -32,7 +32,7 @@
         header {
             position: relative;
             background-color: black;
-            height: 97vh;
+            height: 100vh;
             min-height: 25rem;
             width: 100%;
             overflow: hidden;
@@ -93,7 +93,7 @@
                 color: #fff;
             }
 
-/*
+            /*
             25% {
                 color: green;
             }
@@ -103,7 +103,7 @@
                 color: blue;
             }
 
-/*
+            /*
             75% {
                 color: yellow;
             }
@@ -125,6 +125,96 @@
             }
         }
 
+        /*        webadder button*/
+        .webadder {
+            position: absolute;
+            text-decoration: none !important;
+            color: black;
+            font-size: 10px;
+            border-radius: 2px;
+            z-index: 1;
+            background-image: linear-gradient(to right, #9966ff 0%, #3399ff 51%, #669999 100%);
+            right: 0;
+            bottom: 0;
+        }
+
+        .webadder:hover {
+            position: absolute;
+            text-decoration: none !important;
+            color: white;
+            background-color: darkgrey;
+            right: 1px;
+            bottom: 1px;
+            box-shadow: 1px 1px 1px 1px black;
+        }
+
+        .container1 {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+         
+        }
+
+        .container1 div {
+            border: none;
+            padding: 10px;
+            margin: auto;
+        }
+
+        .box1 {
+            flex: 1;
+            background-image: url(img/plum.jpg);
+            background-repeat: no-repeat;
+            background-size: 375px;
+            height: 250px;
+            min-width: 350px;
+            max-width: 350px;
+            border-radius: 10px;
+            text-shadow: 1px 1px 1px #000;
+
+        }
+        
+         .box1:hover {
+            flex: 1;
+            background-image: url(img/plum.jpg);
+            background-repeat: no-repeat;
+            background-size: 675px;
+            height: 250px;
+            min-width: 350px;
+            max-width: 350px;
+            border-radius: 10px;
+            text-shadow: 1px 1px 1px #000;
+
+        }
+
+        .box2 {
+            flex: 1;
+            background-image: url(img/butter.jpg);
+            background-repeat: no-repeat;
+            background-size: 375px;
+            height: 250px;
+            min-width: 350px;
+            max-width: 350px;
+            border-radius: 10px;
+            text-shadow: 1px 1px 1px #000;
+            
+
+        }
+        
+        .box2:hover {
+            flex: 1;
+            background-image: url(img/butter.jpg);
+            background-repeat: no-repeat;
+            background-size: 675px;
+            height: 250px;
+            min-width: 350px;
+            max-width: 350px;
+            border-radius: 10px;
+            text-shadow: 1px 1px 1px #000;
+            
+
+        }
+
     </style>
     <!-- =======================================================
     Theme Name: JMJ Bakehouse
@@ -138,20 +228,34 @@
     <header id="home">
         <div class="overlay"></div>
         <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-            <source src="/img/santa.mp4" type="video/mp4">
+            <source src="img/santa.mp4" type="video/mp4">
         </video>
         <div class="container h-100">
             <div class="d-flex h-100 text-center align-items-center">
                 <div class="w-100 text-white">
                     <h1 class="video-text">Merry Christmas</h1>
-                    <p class="mb-0">JMJ Bakehouse, Palarivattom, Kochi</p><br>
+                    <p class="mb-0">JMJ Bakehouse, Palarivattom, Kochi</p>
                     <h2 class="video-text">
                         <a href="tel:+918281063360" class="linkedt blinking">Call</a>/<a href="https://api.whatsapp.com/send?phone=918281063360&amp;text=Hello.." class="linkedw blinking" target="_blank">WhatsApp</a> 828-106-3360</h2>
+                    <div class="container1">
+                        <div class="box1">
+                            plum plim plum
+                        </div>
+                        <div class="box2">
+                            butter bitter better
+                        </div>
+
+                    </div>
+
                 </div>
+
+
             </div>
         </div>
+
     </header>
     <!--/ Intro Skew End /-->
+    <a href="https://webadder.com" class="webadder" target="_blank">webAdder</a>
 
     <div id="preloader"></div>
 
