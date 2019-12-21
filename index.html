@@ -11,153 +11,11 @@
       <link href="/img/apple-touch-icon.png" rel="apple-touch-icon">
       <!-- Bootstrap CSS File -->
       <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+      <link href="lib/bootstrap/css/style.css" rel="stylesheet">
       <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
       <style>
 
-          @import url('https://fonts.googleapis.com/css?family=Raleway:300,500,900&display=swap');
-
-/*
-         Author: webAdder.com
-         */
-
-
-/*======================================
-         //--//-->   STYLES GENERALES
-         ======================================*/
-
-.required input:after {
-	content: "*";
-	color: red
-}
-
-header {
-	position: relative;
-	background-color: black;
-	height: 100vh;
-	min-height: 25rem;
-	width: 100%;
-	overflow: hidden;
-}
-
-header video {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	min-width: 100%;
-	min-height: 100%;
-	width: auto;
-	height: auto;
-	z-index: 0;
-	-ms-transform: translateX(-50%) translateY(-50%);
-	-moz-transform: translateX(-50%) translateY(-50%);
-	-webkit-transform: translateX(-50%) translateY(-50%);
-	transform: translateX(-50%) translateY(-50%);
-}
-
-header .container {
-	position: relative;
-	z-index: 2;
-}
-
-header .overlay {
-	position: absolute;
-	top: 0;
-	left: 0;
-	height: 100%;
-	width: 100%;
-	background-color: black;
-	opacity: 0.5;
-	z-index: 1;
-}
-
-.video-text {
-	color: #fff;
-	font-weight: 900;
-}
-
-.linked {
-  margin:10px;
-  padding:10px;
-	text-decoration: none !important;
-}
-
-.blinking {
-	animation: blinkingText 0.9s infinite;
-}
-
-@keyframes blinkingText {
-	0% {
-		color: #ECE5DD;
-	}
-	
-  25% {
-    color: #34B7F1;
-      }
-        
-	50% {
-		color: #25D366;
-	}
-	
-  75% {
-    color: #128C7E;
-      }
-        
-	100% {
-		color: #075E54;
-	}
-}
-
-.blinkingp {
-  animation: shake 0.5s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes shake {
-  0% { transform: translate(1px, 1px) rotate(0deg); }
-  10% { transform: translate(-1px, -2px) rotate(-1deg); }
-  20% { transform: translate(-3px, 0px) rotate(1deg); }
-  30% { transform: translate(3px, 2px) rotate(0deg); }
-  40% { transform: translate(1px, -1px) rotate(1deg); }
-  50% { transform: translate(-1px, 2px) rotate(-1deg); }
-  60% { transform: translate(-3px, 1px) rotate(0deg); }
-  70% { transform: translate(0px, 0px) rotate(0deg); }
-  80% { transform: translate(0px, 0px) rotate(0deg); }
-  90% { transform: translate(0px, 0px) rotate(0deg); }
-  100% { transform: translate(0px, 0px) rotate(0deg); }
-}
-
-
-@media (pointer: coarse) and (hover: none) {
-	header {
-		background: url('img/santa.jpg') white no-repeat center center scroll;
-	}
-	header video {
-		display: none;
-	}
-}
-
-.webadder {
-	float: right;
-	position: fixed;
-	text-decoration: none !important;
-	color: black;
-	font-size: 10px;
-	border-radius: 2px;
-	z-index: 1;
-	background-image: linear-gradient(to right, #9966ff 0%, #3399ff 51%, #669999 100%);
-	right: 0;
-	bottom: 0;
-}
-
-.webadder:hover {
-	text-decoration: none !important;
-	color: white;
-	background-color: darkgrey;
-	right: 1px;
-	bottom: 1px;
-	box-shadow: 1px 1px 1px 1px black;
-}
-          
+       
       </style>
       <!-- =======================================================
          Theme Name: JMJ Bakehouse
@@ -195,8 +53,9 @@ header .overlay {
                <div class="card">
                   <img src="img/butter.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                     <a href="#" class="btn btn-grad">Order Now</a>
+                      <h4 class="card-title">Delicious Butter Cake</h4>
+                     <p class="card-text">Simply yummy. One bite and you'll crave for more.</p>
+                     <a href="https://api.whatsapp.com/send?phone=918281063360&amp;text=Hi, I'd like to order Butter Cake..." class="btn btn-grad">Order Now</a>
                   </div>
                </div>
             </div>
@@ -204,8 +63,9 @@ header .overlay {
                <div class="card">
                   <img src="img/plum.jpg" class="card-img-top" alt="...">
                   <div class="card-body">
-                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                     <a href="#" class="btn btn-grad">Order Now</a>
+                      <h4 class="card-title">Rich Plum cake</h4>
+                     <p class="card-text">A delightful treat of dry fruits in the richness of butter</p>
+                     <a href="https://api.whatsapp.com/send?phone=918281063360&amp;text=Hi, I'd like to order Plum Cake..." class="btn btn-grad">Order Now</a>
                   </div>
                </div>
             </div>
