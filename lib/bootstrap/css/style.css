@@ -146,7 +146,7 @@ header .overlay {
 
 @media (pointer: coarse) and (hover: none) {
     header {
-        background: url('/img/newyear.jpeg') no-repeat center center scroll;
+        background: url("/img/newyear.jpeg") no-repeat center center scroll;
     }
 
     header video {
